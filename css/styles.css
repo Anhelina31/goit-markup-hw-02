@@ -64,10 +64,14 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .btn-order {
   font-size: 16px;
+  ont-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
 }
@@ -103,6 +107,8 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-item {
@@ -131,11 +137,6 @@ button {
 }
 .portfolio-item {
   background: #fff;
-}
-.portfolio-img {
-  width: 360px;
-  height: 300px;
-  background-color: url("path_to_image");
 }
 .portfolio-name {
   font-weight: 500;
